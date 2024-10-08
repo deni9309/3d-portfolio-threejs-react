@@ -2,7 +2,7 @@ const App = () => {
   return (
     <>
       <div>
-        <p className="text-3xl">Vite and React</p>
+        <p className="text-white text-3xl">Vite and React</p>
       </div>
     </>
   )
