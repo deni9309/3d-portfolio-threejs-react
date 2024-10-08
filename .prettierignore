@@ -1,0 +1,10 @@
+node_modules
+.cache
+/assets/*
+package.json
+package-lock.json
+yarn.lock
+vite.config.js
+eslint.config.js
+.env
+.env.example
