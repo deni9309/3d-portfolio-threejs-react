@@ -1,10 +1,10 @@
+import Navbar from './sections/navbar'
+
 const App = () => {
   return (
-    <>
-      <div>
-        <p className="text-white text-3xl">Vite and React</p>
-      </div>
-    </>
+    <main className="max-w-7xl mx-auto">
+      <Navbar />
+    </main>
   )
 }
 

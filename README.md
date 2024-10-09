@@ -1,4 +1,4 @@
-# A 3D Dev Portfolio
+# ![]()<img src="public/assets/ds-logo.svg" alt="Denitsa Slavkova" width="auto" height="120px" /> A 3D Dev Portfolio
 
 ## Introduction
 
