@@ -60,6 +60,10 @@ body {
     @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
   }
 
+  .hero_tag-smaller {
+    @apply text-center lg:text-5xl md:text-4xl text-3xl font-generalsans !leading-normal font-black;
+  }
+
   /* about section */
   .grid-container {
     @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
