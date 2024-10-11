@@ -4,12 +4,16 @@ import { Suspense } from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { Leva } from 'leva'
 
-import CanvasLoader from '../components/canvas-loader'
-import Cube from '../components/cube'
-import { HackerRoom } from '../components/hacker-room'
-import ReactLogo from '../components/react-logo'
-import Rings from '../components/rings'
-import Target from '../components/target'
+import {
+  Button,
+  CanvasLoader,
+  Cube,
+  HeroCamera,
+  HackerRoom,
+  ReactLogo,
+  Rings,
+  Target,
+} from '../components'
 import { calculateSizes } from '../constants'
 
 const Hero = () => {
@@ -25,9 +29,9 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="c-space md:mt-28 mt-32 min-h-screen w-full flex flex-col relative"
+      className="md:mt-[100px] mt-[110px] min-h-screen w-full flex flex-col relative"
     >
-      <div className="w-full mx-auto flex flex-col gap-2">
+      <div className="c-space relative z-10 w-full mx-auto flex flex-col gap-2">
         <p className="sm:text-3xl text-xl font-light tracking-wide text-white text-center font-generalsans">
           Welcome to my portfolio
         </p>
@@ -42,11 +46,13 @@ const Hero = () => {
             <Leva hidden />
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
 
-            <HackerRoom
-              scale={sizes.deskScale}
-              position={sizes.deskPosition}
-              rotation={[0.1, -Math.PI, 0]}
-            />
+            <HeroCamera isMobile={isMobile}>
+              <HackerRoom
+                scale={sizes.deskScale}
+                position={sizes.deskPosition}
+                rotation={[0.1, -Math.PI, 0]}
+              />
+            </HeroCamera>
 
             <group>
               <Target position={sizes.targetPosition} />
@@ -59,6 +65,16 @@ const Hero = () => {
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
           </Suspense>
         </Canvas>
+      </div>
+
+      <div className="absolute z-10 left-0 right-0 bottom-7 w-full c-space">
+        <a href="#contact" className="w-fit">
+          <Button
+            name="Let's Work Together"
+            isBeam
+            containerClasses="sm:w-fit w-full sm:min-w-96"
+          />
+        </a>
       </div>
     </section>
   )

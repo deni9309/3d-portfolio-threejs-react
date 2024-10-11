@@ -1,10 +1,10 @@
 import { useGLTF, useTexture } from '@react-three/drei'
 
-export function HackerRoom (props) {
+export default function HackerRoom(props) {
   const { nodes, materials } = useGLTF('/models/hacker-room.glb')
 
-  const monitortxt = useTexture('textures/desk/monitor.png')
-  const screenTxt = useTexture('textures/desk/screen.png')
+  const monitorTexture = useTexture('textures/desk/monitor.png')
+  const screenTexture = useTexture('textures/desk/screen.png')
 
   return (
     <group {...props} dispose={null}>
@@ -12,7 +12,7 @@ export function HackerRoom (props) {
         geometry={nodes.screen_screens_0.geometry}
         material={materials.screens}
       >
-        <meshMatcapMaterial map={screenTxt} />
+        <meshMatcapMaterial map={screenTexture} />
       </mesh>
       <mesh
         geometry={nodes.screen_glass_glass_0.geometry}
@@ -26,7 +26,7 @@ export function HackerRoom (props) {
         geometry={nodes.table_table_mat_0_2.geometry}
         material={materials.computer_mat}
       >
-        <meshMatcapMaterial map={monitortxt} />
+        <meshMatcapMaterial map={monitorTexture} />
       </mesh>
       <mesh
         geometry={nodes.table_table_mat_0_3.geometry}
@@ -52,7 +52,7 @@ export function HackerRoom (props) {
         geometry={nodes.table_table_mat_0_8.geometry}
         material={materials.tv_mat}
       >
-        <meshMatcapMaterial map={monitortxt} />
+        <meshMatcapMaterial map={monitorTexture} />
       </mesh>
       <mesh
         geometry={nodes.table_table_mat_0_9.geometry}
@@ -75,4 +75,3 @@ export function HackerRoom (props) {
 }
 
 useGLTF.preload('/models/hacker-room.glb')
-
