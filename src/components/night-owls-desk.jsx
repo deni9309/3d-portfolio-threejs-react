@@ -1,28 +1,20 @@
 import React, { useRef } from 'react'
 import { useGLTF, useAnimations, useTexture } from '@react-three/drei'
-import * as THREE from 'three'
 
 export default function NightOwlsDesk(props) {
   const group = useRef()
   const { nodes, materials, animations } = useGLTF(
     '/models/the_night_owls_desk.glb',
   )
-  const { actions } = useAnimations(animations, group)
 
   const woodTexture = useTexture('textures/desk/wood.png')
-  const keyboardTexture = useTexture('textures/desk/keyboard.png')
   const laptopTexture = useTexture('textures/desk/laptop.png')
-  const blackTexture = useTexture('textures/desk/black.png')
-  const monitorTexture = useTexture('textures/desk/monitor.png')
   const mugTexture = useTexture('textures/desk/mug.png')
-  const cpuTexture = useTexture('textures/desk/cpu.png')
   const glossyTexture = useTexture('textures/glossy.png')
   const brownTexture = useTexture('textures/brown-surface.png')
   const screenTexture = useTexture('textures/desk/screen2.png')
-
   const leatherTexture = useTexture('textures/desk/leather.png')
-  const plasticTexture = useTexture('textures/desk/plastic.png')
-
+ 
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">

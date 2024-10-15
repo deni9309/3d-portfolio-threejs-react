@@ -28,7 +28,7 @@ const About = () => {
             />
             <div>
               <p className="grid-headtext">Hi, I&apos;m Denitsa</p>
-              <p className="grid-subtext">
+              <p className="grid-subtext mb-3">
                 With 3 years of experience, I have honed my skills in front-end
                 and backend development, with a focus on new web technologies.
               </p>
@@ -41,11 +41,11 @@ const About = () => {
             <img
               src="/assets/grid2.png"
               alt="grid-2"
-              className="w-full h-fit sm:w-[276px] mx-auto object-contain"
+              className="h-fit w-full max-md:max-w-[330px] max-sm:w-full mx-auto object-contain"
             />
             <div>
               <p className="grid-headtext">Tech Stack</p>
-              <p className="grid-subtext">
+              <p className="grid-subtext mb-3">
                 I specialize in JavaScript and TypeScript, particularly within
                 the React and Next.js ecosystems. Additionally, I have
                 experience working with backend technologies like C# with
@@ -85,7 +85,7 @@ const About = () => {
               <Button
                 name="Contact Me"
                 isBeam
-                containerClasses="w-full mt-10"
+                containerClasses="w-full mt-10 mb-3"
               />
             </div>
           </div>
@@ -96,11 +96,11 @@ const About = () => {
             <img
               src="/assets/grid3.png"
               alt="grid-3"
-              className="w-full sm:h-[266px] h-fit object-contain"
+              className="w-full h-full max-h-[220px] object-contain"
             />
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
-              <p className="grid-subtext">
+              <p className="grid-subtext mb-3">
                 Coding is more than just a profession—it&apos;s a way of life
                 for me. I&apos;m passionate about solving problems and building
                 things through code. I&apos;m constantly exploring new projects,
@@ -116,7 +116,7 @@ const About = () => {
             <img
               src="/assets/grid4.png"
               alt="grid-4"
-              className="w-full h-fit md:h-[126px] sm:h-[276px] sm:object-top object-cover"
+              className="flex max-h-[220px] h-full object-contain"
             />
 
             <div className="space-y-2">
@@ -131,7 +131,7 @@ const About = () => {
                   src={hasCopied ? '/assets/tick.svg' : '/assets/copy.svg'}
                   alt="copy"
                 />
-                <p className="lg:text-2xl md:text-xl font-medium text-white text-gray_gradient">
+                <p className="lg:text-2xl md:text-xl font-medium text-white text-gray_gradient mb-3">
                   deni9309@gmail.com
                 </p>
               </div>
