@@ -7,7 +7,9 @@ import React from 'react'
 
 const Cube = ({ ...props }) => {
   const { nodes } = useGLTF('/models/cube.glb')
-  const texture = useTexture('/textures/cube.png')
+  const texture1 = useTexture('/textures/cube.png')
+  const texture2 = useTexture('/textures/desk/cpu.png')
+
 
   const cubeRef = useRef()
   const [hovered, setHovered] = useState(false)
@@ -27,7 +29,7 @@ const Cube = ({ ...props }) => {
     <Float floatIntensity={2}>
       <group
         {...props}
-        position={[9, -4, 0]}
+        position={[props.position[0], props.position[1], 0]}
         rotation={[2.6, 0.8, -1.8]}
         scale={0.74}
         dispose={null}
@@ -41,7 +43,7 @@ const Cube = ({ ...props }) => {
           onPointerEnter={() => setHovered(true)}
           onPointerOut={() => setHovered(false)}
         >
-          <meshMatcapMaterial matcap={texture} toneMapped={false} />
+          <meshMatcapMaterial matcap={texture2} map={texture1} />
         </mesh>
       </group>
     </Float>

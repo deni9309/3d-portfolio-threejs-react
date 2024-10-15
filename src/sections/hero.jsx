@@ -2,19 +2,18 @@ import { PerspectiveCamera, useProgress } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
 import { useMediaQuery } from 'react-responsive'
-import { Leva } from 'leva'
 
 import {
   Button,
   CanvasLoader,
   Cube,
   HeroCamera,
-  HackerRoom,
   ReactLogo,
   Rings,
   Target,
 } from '../components'
 import { calculateSizes } from '../constants'
+import NightOwlsDesk from '../components/night-owls-desk'
 
 const Hero = () => {
   // Use media queries to determine device size
@@ -43,14 +42,13 @@ const Hero = () => {
       <div className="absolute inset-0 w-full h-full">
         <Canvas className="w-full h-full">
           <Suspense fallback={<CanvasLoader progress={progress} />}>
-            <Leva hidden />
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
 
             <HeroCamera isMobile={isMobile}>
-              <HackerRoom
+              <NightOwlsDesk
                 scale={sizes.deskScale}
                 position={sizes.deskPosition}
-                rotation={[0.1, -Math.PI, 0]}
+                rotation={[0.4, -Math.PI * 0.5, 0]}
               />
             </HeroCamera>
 
@@ -61,8 +59,8 @@ const Hero = () => {
               <Cube position={sizes.cubePosition} />
             </group>
 
-            <ambientLight intensity={1} />
-            <directionalLight position={[10, 10, 10]} intensity={0.5} />
+            <ambientLight intensity={2} />
+            <directionalLight position={[0, 5, 5]} intensity={4} />
           </Suspense>
         </Canvas>
       </div>

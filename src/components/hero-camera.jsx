@@ -11,7 +11,7 @@ const HeroCamera = ({ children, isMobile }) => {
     if (!isMobile) {
       easing.dampE(
         groupRef.current.rotation,
-        [-state.pointer.y / 3, state.pointer.x / 2, 0],
+        [-state.pointer.y / 10, state.pointer.x / 5, 0],
         0.25,
         delta,
       )
@@ -19,7 +19,7 @@ const HeroCamera = ({ children, isMobile }) => {
   })
 
   return (
-    <group ref={groupRef} scale={isMobile ? 1.0 : 1.3}>
+    <group ref={groupRef} scale={1}>
       {children}
     </group>
   )
