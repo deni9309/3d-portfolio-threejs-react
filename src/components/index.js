@@ -6,6 +6,8 @@ import HeroCamera from './hero-camera'
 import ReactLogo from './react-logo'
 import Rings from './rings'
 import Target from './target'
+import DemoComputer from './demo-computer'
+import NightOwlsDesk from './night-owls-desk'
 
 export {
   Button,
@@ -16,4 +18,6 @@ export {
   ReactLogo,
   Rings,
   Target,
+  DemoComputer,
+  NightOwlsDesk,
 }

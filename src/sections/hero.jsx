@@ -11,9 +11,9 @@ import {
   ReactLogo,
   Rings,
   Target,
+  NightOwlsDesk,
 } from '../components'
 import { calculateSizes } from '../constants'
-import NightOwlsDesk from '../components/night-owls-desk'
 
 const Hero = () => {
   // Use media queries to determine device size
