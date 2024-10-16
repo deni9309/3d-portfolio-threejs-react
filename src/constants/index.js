@@ -56,52 +56,266 @@ export const clientReviews = [
   },
 ]
 
+// {
+//   title: 'Podcastr - AI Podcast Platform',
+//   desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+//   subdesc:
+//     'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+//   href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+//   texture: '/textures/project/project1.mp4',
+//   logo: '/assets/project-logo1.png',
+//   logoStyle: {
+//     backgroundColor: '#2A1816',
+//     border: '0.2px solid #36201D',
+//     boxShadow: '0px 0px 60px 0px #AA3C304D',
+//   },
+//   spotlight: '/assets/spotlight1.png',
+//   tags: [
+//     {
+//       id: 1,
+//       name: 'React.js',
+//       path: '/assets/react.svg',
+//     },
+//     {
+//       id: 2,
+//       name: 'TailwindCSS',
+//       path: 'assets/tailwindcss.png',
+//     },
+//     {
+//       id: 3,
+//       name: 'TypeScript',
+//       path: '/assets/typescript.png',
+//     },
+//     {
+//       id: 4,
+//       name: 'Framer Motion',
+//       path: '/assets/framer.png',
+//     },
+//   ],
+// },
+// {
+//   title: 'LiveDoc - Real-Time Google Docs Clone',
+//   desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+//   subdesc:
+//     'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+//   href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+//   texture: '/textures/project/project2.mp4',
+//   logo: '/assets/project-logo2.png',
+//   logoStyle: {
+//     backgroundColor: '#13202F',
+//     border: '0.2px solid #17293E',
+//     boxShadow: '0px 0px 60px 0px #2F6DB54D',
+//   },
+//   spotlight: '/assets/spotlight2.png',
+//   tags: [
+//     {
+//       id: 1,
+//       name: 'React.js',
+//       path: '/assets/react.svg',
+//     },
+//     {
+//       id: 2,
+//       name: 'TailwindCSS',
+//       path: 'assets/tailwindcss.png',
+//     },
+//     {
+//       id: 3,
+//       name: 'TypeScript',
+//       path: '/assets/typescript.png',
+//     },
+//     {
+//       id: 4,
+//       name: 'Framer Motion',
+//       path: '/assets/framer.png',
+//     },
+//   ],
+// },
+// {
+//     title: 'Imaginify - AI Photo Manipulation App',
+//     desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+//     subdesc:
+//       'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+//     href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+//     texture: '/textures/project/project5.mp4',
+//     logo: '/assets/project-logo5.png',
+//     logoStyle: {
+//       backgroundColor: '#1C1A43',
+//       border: '0.2px solid #252262',
+//       boxShadow: '0px 0px 60px 0px #635BFF4D',
+//     },
+//     spotlight: '/assets/spotlight5.png',
+//     tags: [
+//       {
+//         id: 1,
+//         name: 'React.js',
+//         path: '/assets/react.svg',
+//       },
+//       {
+//         id: 2,
+//         name: 'TailwindCSS',
+//         path: 'assets/tailwindcss.png',
+//       },
+//       {
+//         id: 3,
+//         name: 'TypeScript',
+//         path: '/assets/typescript.png',
+//       },
+//       {
+//         id: 4,
+//         name: 'Framer Motion',
+//         path: '/assets/framer.png',
+//       },
+//     ],
+//   },
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'VitaCare - Health Management System',
+    desc: 'A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming and canceling appointments.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+      'With a focus on efficiency, VitaCare integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+    href: 'https://vita-care-app-2024.vercel.app/',
+    github: 'https://github.com/deni9309/vita-care-app-2024',
+    texture: '/textures/project/project3.mp4',
+    logo: '/assets/project-logo3.png',
     logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
+      backgroundColor: '#60f5a1',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0px',
+      boxShadow: '0px 0px 9px 6px rgba(75, 181, 96, 0.4)',
     },
-    spotlight: '/assets/spotlight1.png',
+    spotlight: '/assets/spotlight3.png',
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Next.js',
+        path: '/assets/nextjs.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
       {
+        id: 3,
+        name: 'Appwrite',
+        path: '/assets/appwrite.png',
+      },
+      {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Twilio',
+        path: 'assets/twilio.png',
+      },
+      {
+        id: 5,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Horizon - Financial SaaS platform',
+    desc: 'Horizon is a comprehensive financial SaaS platform that links multiple bank accounts, offers real-time transaction tracking, enables seamless money transfers between users, and simplifies overall financial management.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
+      'Powered by Next.js, Appwrite, Dwolla, Plaid and secured with Sentry, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+    href: 'https://banking-app-horizon-sand.vercel.app/sign-in',
+    github: 'https://github.com/deni9309/banking-app',
+    texture: '/textures/project/project4.mp4',
+    logo: '/assets/project-logo4.png',
+    logoStyle: {
+      backgroundColor: '#1e3b5e',
+      background:
+        'linear-gradient(45deg, rgba(102, 169, 250, 0.6) 5%, rgba(30, 59, 94, 1) 100%)',
+      border: '0px',
+      boxShadow: '0px 0px 9px 6px #2F67B64D',
+    },
+    spotlight: '/assets/spotlight4.png',
+    tagsStyle: {
+      backgroundColor: '#D9D9D9',
+    },
+    tags: [
+      {
+        id: 1,
+        name: 'Next.js',
+        path: '/assets/nextjs.png',
+      },
+      {
+        id: 3,
+        name: 'Appwrite',
+        path: '/assets/appwrite.png',
+      },
+      {
+        id: 2,
+        name: 'Plaid',
+        path: '/assets/plaid.png',
+      },
+      {
+        id: 5,
+        name: 'Sentry',
+        path: 'assets/sentry.png',
+      },
+      {
+        id: 4,
+        name: 'Dwolla',
+        path: 'assets/dwolla.png',
+      },
+    ],
+  },
+  {
+    title: 'Evently - Event Management Platform',
+    desc: 'Evently is an event organization web application that provides user authentication, event and category management, searching, filtering, checkout and payment functionalities.',
+    subdesc:
+      'Built with Next.js, Clerk, Stripe, Uploadthing and more, Evently ensures a secure authentication and payment experience, enabling users to easily manage events and bookings.',
+    github: 'https://github.com/deni9309/event-platform',
+    href: 'https://event-platform-xi-flax.vercel.app',
+    texture: '/textures/project/project5.mp4',
+    logo: '/assets/project-logo5.png',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tagsStyle: {
+      backgroundColor: '#B5B5B5',
+    },
+    tags: [
+      {
+        id: 1,
+        name: 'Next.js',
+        path: '/assets/nextjs.png',
+      },
+      {
+        id: 2,
+        name: 'Clerk',
+        path: '/assets/clerk.png',
+      },
+      {
+        id: 3,
+        name: 'Stripe',
+        path: '/assets/stripe.png',
+      },
+      {
+        id: 4,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 5,
+        name: 'Shadcn/ui',
+        path: 'assets/shadcn.png',
+      },
+    ],
+  },
+  {
+    title: 'Snapgram - A Social Media Application',
+    desc: 'Built with Vite and React.js, Snapgram is a Social media platform with user-friendly interface that has a nice modern look and lots of features including infinite scroll.',
+    subdesc:
+      'Users can easily create, explore posts, and view other users profiles and post activity. Snapgram has a strong authentication system and performs a quick data fetching using React Query for a smooth user experience.',
+    texture: '/textures/project/snapgram.mp4',
     logo: '/assets/project-logo2.png',
+    href: 'https://snapgram-beta-ashen.vercel.app/sign-in',
+    github: 'https://github.com/deni9309/snapgram',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -116,131 +330,23 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Vite',
+        path: 'assets/vite.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'React Query',
+        path: 'assets/reactQuery.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
-    logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
-    spotlight: '/assets/spotlight3.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Appwrite',
+        path: 'assets/appwrite.png',
       },
       {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
+        id: 5,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
-    spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: 'assets/typescript.png',
       },
     ],
   },
@@ -248,11 +354,8 @@ export const myProjects = [
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
-    deskScale: isSmall ? 0.110 : isMobile ? 0.15 : 0.2,
+    deskScale: isSmall ? 0.11 : isMobile ? 0.15 : 0.2,
     deskPosition: isMobile ? [-0.4, -1.5, 0] : [-1.5, -2, 0],
-
-    // deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-    // deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
     cubePosition: isSmall
       ? [3.6, -4.9, 0]
       : isMobile
@@ -280,7 +383,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
         ? [-7, -10, -13]
         : isTablet
           ? [-10, -10, -4]
-          : [-15, -13, -6],
+          : [-15, -11, -6],
   }
 }
 
