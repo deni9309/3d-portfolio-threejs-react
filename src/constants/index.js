@@ -21,152 +21,27 @@ export const navLinks = [
   },
 ]
 
-export const clientReviews = [
+export const colleagueReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
+    name: 'Zlatko Iliev',
+    position: 'Senior Front-End Developer (Team Lead in MyTeamsHub)',
     img: 'assets/review1.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'I am writing to recommend Denitsa Slavkova, who worked with me on the MyTeamsHub project as a front-end developer from 05.2024 to 08.2024. I worked closely with Denitsa and reviewed many of her pull requests on github. She showed great results in both dealing with tasks and catching up with the tech stack. She really went beyond my expectations for these few months, she showed understanding of how the technologies work together and improved her technical skills. Denitsa also showed proactiveness by suggesting improvements in the codebase and willingness to take tasks from the board without waiting to be assigned to a task. I believe Denitsa will be a great fit for the next team where she would join!',
+    link: 'https://drive.google.com/file/d/1R-vwmc_yWexSgXL-rKyxgzsd1Re7C9tN/view?usp=drive_link',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
+    name: 'Alex Ivanov',
+    position: 'Technical Lead at Algona LTD',
     img: 'assets/review2.png',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Denitsa has mastered the work with Angular, Typescript, HTML5, CSS and libraries like Bootstrap and Angular Material. She showcased exceptional motivation and proficiency. Until the end of her internship she showed deep understanding of design principles and technical skills. She brought creative solutions to complex challenges and fostered a collaborative environment.',
+    link: 'https://drive.google.com/file/d/1fgVFVaDttikoAHBvHXmFYOzArG-z0ad7/view?usp=drive_link',
   },
 ]
 
-// {
-//   title: 'Podcastr - AI Podcast Platform',
-//   desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-//   subdesc:
-//     'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-//   href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-//   texture: '/textures/project/project1.mp4',
-//   logo: '/assets/project-logo1.png',
-//   logoStyle: {
-//     backgroundColor: '#2A1816',
-//     border: '0.2px solid #36201D',
-//     boxShadow: '0px 0px 60px 0px #AA3C304D',
-//   },
-//   spotlight: '/assets/spotlight1.png',
-//   tags: [
-//     {
-//       id: 1,
-//       name: 'React.js',
-//       path: '/assets/react.svg',
-//     },
-//     {
-//       id: 2,
-//       name: 'TailwindCSS',
-//       path: 'assets/tailwindcss.png',
-//     },
-//     {
-//       id: 3,
-//       name: 'TypeScript',
-//       path: '/assets/typescript.png',
-//     },
-//     {
-//       id: 4,
-//       name: 'Framer Motion',
-//       path: '/assets/framer.png',
-//     },
-//   ],
-// },
-// {
-//   title: 'LiveDoc - Real-Time Google Docs Clone',
-//   desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-//   subdesc:
-//     'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-//   href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-//   texture: '/textures/project/project2.mp4',
-//   logo: '/assets/project-logo2.png',
-//   logoStyle: {
-//     backgroundColor: '#13202F',
-//     border: '0.2px solid #17293E',
-//     boxShadow: '0px 0px 60px 0px #2F6DB54D',
-//   },
-//   spotlight: '/assets/spotlight2.png',
-//   tags: [
-//     {
-//       id: 1,
-//       name: 'React.js',
-//       path: '/assets/react.svg',
-//     },
-//     {
-//       id: 2,
-//       name: 'TailwindCSS',
-//       path: 'assets/tailwindcss.png',
-//     },
-//     {
-//       id: 3,
-//       name: 'TypeScript',
-//       path: '/assets/typescript.png',
-//     },
-//     {
-//       id: 4,
-//       name: 'Framer Motion',
-//       path: '/assets/framer.png',
-//     },
-//   ],
-// },
-// {
-//     title: 'Imaginify - AI Photo Manipulation App',
-//     desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-//     subdesc:
-//       'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-//     href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-//     texture: '/textures/project/project5.mp4',
-//     logo: '/assets/project-logo5.png',
-//     logoStyle: {
-//       backgroundColor: '#1C1A43',
-//       border: '0.2px solid #252262',
-//       boxShadow: '0px 0px 60px 0px #635BFF4D',
-//     },
-//     spotlight: '/assets/spotlight5.png',
-//     tags: [
-//       {
-//         id: 1,
-//         name: 'React.js',
-//         path: '/assets/react.svg',
-//       },
-//       {
-//         id: 2,
-//         name: 'TailwindCSS',
-//         path: 'assets/tailwindcss.png',
-//       },
-//       {
-//         id: 3,
-//         name: 'TypeScript',
-//         path: '/assets/typescript.png',
-//       },
-//       {
-//         id: 4,
-//         name: 'Framer Motion',
-//         path: '/assets/framer.png',
-//       },
-//     ],
-//   },
 export const myProjects = [
   {
     title: 'VitaCare - Health Management System',
