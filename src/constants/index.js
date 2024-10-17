@@ -268,7 +268,7 @@ export const myProjects = [
       'Built with Next.js, Clerk, Stripe, Uploadthing and more, Evently ensures a secure authentication and payment experience, enabling users to easily manage events and bookings.',
     github: 'https://github.com/deni9309/event-platform',
     href: 'https://event-platform-xi-flax.vercel.app',
-    texture: '/textures/project/project5.mp4',
+    texture: '/textures/project/evently2.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
       backgroundColor: '#1C1A43',

@@ -37,8 +37,8 @@ const Projects = () => {
     <section id="projects" className="c-space my-20">
       <p className="head-text">My Work</p>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 w-full mt-12">
-        <div className="relative flex flex-col gap-5 sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
-          <div id="current-project">
+        <div className="flex flex-col gap-5 sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
+          <div id="current-project" className="opacity-100">
             <div className="absolute top-0 right-0">
               <img
                 src={currentProject.spotlight}
