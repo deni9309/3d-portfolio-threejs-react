@@ -1,9 +1,9 @@
-import React, { useRef } from 'react'
-import { useGLTF, useAnimations, useTexture } from '@react-three/drei'
+import { useRef } from 'react'
+import { useGLTF, useTexture } from '@react-three/drei'
 
 export default function NightOwlsDesk(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF(
+  const { nodes, materials } = useGLTF(
     '/models/the_night_owls_desk.glb',
   )
 
@@ -14,7 +14,7 @@ export default function NightOwlsDesk(props) {
   const brownTexture = useTexture('textures/brown-surface.png')
   const screenTexture = useTexture('textures/desk/screen2.png')
   const leatherTexture = useTexture('textures/desk/leather.png')
- 
+
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
@@ -52,7 +52,7 @@ export default function NightOwlsDesk(props) {
                     <meshMatcapMaterial
                       matcap={mugTexture}
                       map={laptopTexture}
-                    />               
+                    />
                   </mesh>
                   <mesh
                     name="calculator_display_calc_0"

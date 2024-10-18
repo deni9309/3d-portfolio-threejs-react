@@ -26,7 +26,6 @@ export const colleagueReviews = [
     id: 1,
     name: 'Zlatko Iliev',
     position: 'Senior Front-End Developer (Team Lead in MyTeamsHub)',
-    img: 'assets/review1.png',
     review:
       'I am writing to recommend Denitsa Slavkova, who worked with me on the MyTeamsHub project as a front-end developer from 05.2024 to 08.2024. I worked closely with Denitsa and reviewed many of her pull requests on github. She showed great results in both dealing with tasks and catching up with the tech stack. She really went beyond my expectations for these few months, she showed understanding of how the technologies work together and improved her technical skills. Denitsa also showed proactiveness by suggesting improvements in the codebase and willingness to take tasks from the board without waiting to be assigned to a task. I believe Denitsa will be a great fit for the next team where she would join!',
     link: 'https://drive.google.com/file/d/1R-vwmc_yWexSgXL-rKyxgzsd1Re7C9tN/view?usp=drive_link',
@@ -35,7 +34,6 @@ export const colleagueReviews = [
     id: 2,
     name: 'Alex Ivanov',
     position: 'Technical Lead at Algona LTD',
-    img: 'assets/review2.png',
     review:
       'Denitsa has mastered the work with Angular, Typescript, HTML5, CSS and libraries like Bootstrap and Angular Material. She showcased exceptional motivation and proficiency. Until the end of her internship she showed deep understanding of design principles and technical skills. She brought creative solutions to complex challenges and fostered a collaborative environment.',
     link: 'https://drive.google.com/file/d/1fgVFVaDttikoAHBvHXmFYOzArG-z0ad7/view?usp=drive_link',
@@ -265,32 +263,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title:
-      'Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.',
-    icon: '/assets/framer.svg',
-    animation: 'victory',
-  },
-  {
-    id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title:
+    company: 'Cost Effective Software (by Software University)',
+    position: 'Next.js Developer',
+    duration: '05/2024 - 08/2024',
+    description:
       'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
-    icon: '/assets/figma.svg',
+    icon: '/assets/angular.png',
     animation: 'clapping',
   },
   {
+    id: 2,
+    company: 'Cost Effective Software (by Software University)',
+    position: 'Front-End Developer with Angular',
+    duration: '10/2023 - 02/2024',
+    description:
+      'Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.',
+    icon: '/assets/nextjs.png',
+    animation: 'victory',
+  },
+  {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title:
+    company: 'High School of Mathematics Konstantin Velichkov',
+    position: 'Informatics Teacher',
+    duration: '2018 - 2022',
+    description:
       'Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.',
-    icon: '/assets/notion.svg',
+    icon: '/assets/teacher.png',
     animation: 'salute',
   },
 ]

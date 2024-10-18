@@ -1,4 +1,5 @@
 import About from './sections/about'
+import Contact from './sections/contact'
 import Hero from './sections/hero'
 import Navbar from './sections/navbar'
 import Projects from './sections/projects'
@@ -12,6 +13,7 @@ const App = () => {
       <About />
       <Projects />
       <Testimonials />
+      <Contact />
     </main>
   )
 }
