@@ -1,5 +1,6 @@
 import About from './sections/about'
 import Contact from './sections/contact'
+import Footer from './sections/footer'
 import Hero from './sections/hero'
 import Navbar from './sections/navbar'
 import Projects from './sections/projects'
@@ -14,6 +15,7 @@ const App = () => {
       <Projects />
       <Testimonials />
       <Contact />
+      <Footer />
     </main>
   )
 }
