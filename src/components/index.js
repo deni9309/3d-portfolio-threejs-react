@@ -7,6 +7,7 @@ import ReactLogo from './react-logo'
 import Rings from './rings'
 import Target from './target'
 import DemoComputer from './demo-computer'
+import Developer from './developer'
 import NightOwlsDesk from './night-owls-desk'
 
 export {
@@ -19,5 +20,6 @@ export {
   Rings,
   Target,
   DemoComputer,
+  Developer,
   NightOwlsDesk,
 }

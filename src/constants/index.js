@@ -266,9 +266,11 @@ export const workExperiences = [
     company: 'Cost Effective Software (by Software University)',
     position: 'Next.js Developer',
     duration: '05/2024 - 08/2024',
-    description:
-      'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
-    icon: '/assets/angular.png',
+    description1:
+      "I contributed to a Next.js project that uses a .NET Web API backend. This experience provided me with practical knowledge of one of today's most popular full-stack technologies.",
+    description2:
+      'Working on this project honed my skills in React, TypeScript, HTML5, CSS, and Tailwind CSS, enabling me to create visually appealing and functional web applications. Additionally, my familiarity with Web APIs and strong understanding of RESTful API architecture were instrumental in integrating back-end services with front-end solutions, ensuring seamless user experiences.',
+    icon: '/assets/nextjs.png',
     animation: 'clapping',
   },
   {
@@ -276,18 +278,22 @@ export const workExperiences = [
     company: 'Cost Effective Software (by Software University)',
     position: 'Front-End Developer with Angular',
     duration: '10/2023 - 02/2024',
-    description:
-      'Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.',
-    icon: '/assets/nextjs.png',
+    description1:
+      "I was responsible for the front-end development of our team's project, focusing on creating a modern, user-friendly UI with fully responsive behavior. My role involved writing high-quality code while adhering to best practices in Angular and TypeScript.",
+    description2:
+      'I actively participated in team meetings to synchronize efforts, discuss progress, and delegate tasks. Additionally, we managed version control through GitHub.',
+    icon: '/assets/angular.svg',
     animation: 'victory',
   },
   {
     id: 3,
     company: 'High School of Mathematics Konstantin Velichkov',
     position: 'Informatics Teacher',
-    duration: '2018 - 2022',
-    description:
-      'Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.',
+    duration: '09/2018 - 07/2022',
+    description1:
+      'I taught specialized and professional subjects in the field of Computer Science, primarily focusing on C#, to high school students.',
+    description2:
+      'I developed educational materials and implemented innovative teaching methods to effectively engage and motivate students.',
     icon: '/assets/teacher.png',
     animation: 'salute',
   },
