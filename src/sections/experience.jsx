@@ -1,15 +1,16 @@
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, useProgress } from '@react-three/drei'
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 
 import { workExperiences } from '../constants'
 import { CanvasLoader, Developer } from '../components'
 
 const Experience = () => {
+  const [animationName, setAnimationName] = useState('idle')
   const { progress } = useProgress()
 
   return (
-    <section className="c-space my-20 text-y">
+    <section id="work" className="c-space my-20">
       <div className="w-full text-white-600">
         <h3 className="head-text !leading-normal">My Work Experience</h3>
 
@@ -31,7 +32,11 @@ const Experience = () => {
               <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
 
               <Suspense fallback={<CanvasLoader progress={progress} />}>
-                <Developer position-y={-3} scale={2.8} />
+                <Developer
+                  position-y={-3}
+                  scale={2.8}
+                  animationName={animationName}
+                />
               </Suspense>
             </Canvas>
           </div>
@@ -39,7 +44,15 @@ const Experience = () => {
           <div className="work-content">
             <div className="sm:py-10 py-5 sm:px-5 px-2.5">
               {workExperiences.map((item) => (
-                <div key={item.id} className="work-content_container group">
+                <div
+                  key={item.id}
+                  onClick={() => setAnimationName(item.animation.toLowerCase())}
+                  onPointerOver={() =>
+                    setAnimationName(item.animation.toLowerCase())
+                  }
+                  onPointerOut={() => setAnimationName('idle')}
+                  className="work-content_container group"
+                >
                   <div className="flex flex-col justify-start items-center h-full py-2">
                     <div className="work-content_logo">
                       <img

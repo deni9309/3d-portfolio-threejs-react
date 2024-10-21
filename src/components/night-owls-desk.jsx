@@ -3,9 +3,7 @@ import { useGLTF, useTexture } from '@react-three/drei'
 
 export default function NightOwlsDesk(props) {
   const group = useRef()
-  const { nodes, materials } = useGLTF(
-    '/models/the_night_owls_desk.glb',
-  )
+  const { nodes, materials } = useGLTF('/models/the_night_owls_desk.glb')
 
   const woodTexture = useTexture('textures/desk/wood.png')
   const laptopTexture = useTexture('textures/desk/laptop.png')
